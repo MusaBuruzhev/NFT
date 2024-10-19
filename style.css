@@ -1,0 +1,279 @@
+body {
+    margin: 0;
+    
+    
+    
+    animation: backgroundAnimation 10s infinite alternate;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-color: #000000;
+    }
+    25% {
+        background-color: #040808;
+    }
+    50% {
+        background-color: #0A141F;
+    }
+    75% {
+        background-color: #172C29;
+    }
+    100% {
+        background-color: #0E172B;
+    }
+}
+
+
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+header a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    margin-left: 5%;
+    margin-top: 30px;
+
+}
+header a:hover{
+    color: #D6EF0E;
+}
+header div{
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+header button{
+    background: #D6EF0E;
+    width: 143px;
+    height: 48px;
+    border-radius: 10px;
+    color: white;
+    transform: .5s;
+}
+header button:hover{
+    color: #000;
+}
+
+
+
+
+article{
+    width: 100%;
+
+}
+.ArticleNew{
+    color: white;
+    
+    font-size: 30px;
+    margin-left: 5%;
+    width: 40%;
+}
+
+.PGreen{
+    color: #D6EF0E;
+}
+
+.articleIMG{
+    margin-right: 70px;
+    margin-left: auto;
+}
+
+.ArticleNew button{
+    width: 178px;
+    height: 52px;
+    border: 2px solid #D6EF0E;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    transition: .5s;
+}
+.ArticleNew button:hover{
+    background: #D6EF0E;
+    width: 180px;
+    height: 55px;
+}
+
+
+.h2K{
+    color: #D6EF0E;
+    margin-left: 50px;
+}
+.h2K:first-of-type {
+    margin-left: 0; /* Убираем отступ для первого элемента данного типа */
+}
+
+.ArticleNewP{
+    position: relative;
+    margin-top: -50px;
+    font-size: 16px;
+
+}
+.ArticleNewP p{
+    margin-left: 75px;
+}
+.ArticleNewP p:first-of-type{
+    margin-left: 0;
+}
+
+
+
+.section1{
+    width: 89%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.section1 h1{
+    font-size: 34px;
+    width: 23%;
+}
+
+
+nav{
+   
+    width: 89%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+nav div{
+    background: #131E3A;
+    border-radius: 10px;
+    
+    
+    
+}
+
+nav div:first-of-type{
+    margin-left: 0;
+}
+
+#a1{
+    color: #D6EF0E;
+    border: 2px solid #D6EF0E;
+    width: 130px;
+    height: 49px;
+    background: none;
+    border-radius: 15px;
+    transition: .5s;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 20px;
+}
+#a1:hover{
+    background: #D6EF0E;
+    color: white;  
+}
+
+#a2{
+    margin-left: auto;
+    margin-right: 5px;
+    margin-top: 25px;
+}
+#a3{
+    margin-top: -3px;
+    margin-left: 10px;
+
+}
+nav h2{
+    margin-left: 10px;
+}
+
+
+
+#a4{
+    margin-top: 150px;
+   
+    width: 89%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#IMG{
+    margin-left: auto;
+    margin-right: 7%;
+
+
+}
+#a5{
+    
+    width: 20%;
+}
+#a5 h1{
+    margin-top: 150px;
+    font-size: 40px;
+}
+
+#a5 p{
+
+}
+#a5 div{
+    display: flex;
+}
+#a5 button{
+    margin-top: 20px;
+    width: 150px;
+    height: 42px;
+    border: 2px solid #D6EF0E;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    transition: .5s;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+#a5 button:hover{
+    background: #D6EF0E;
+    }
+
+
+    figcaption{
+        color: white;
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
+    figcaption h1{
+        width: 20%;
+    }
+    figcaption button{
+        margin-top: 20px;
+        width: 150px;
+    height: 42px;
+    background:  #D6EF0E;
+    border-radius: 10px;
+    margin-left: auto;  
+    margin-right: 30px;      
+    color: white;
+    transition: .5s;
+    
+    cursor: pointer;
+    }
+
+
+
+    footer{
+        color: white;
+        
+    }
+
+    footer a{
+        text-decoration: none;
+        color: white;
+        transition: .5s;
+    }
+
+    
+    footer a:hover{
+        
+        color: #D6EF0E;
+        
+    }
